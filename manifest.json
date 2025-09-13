@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Tradutor para Compreensão",
+    "version": "1.0",
+    "description": "Simplifica o texto selecionado em uma página.",
+    "permissions": ["scripting", "activeTab", "contextMenus"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icons/icon.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
